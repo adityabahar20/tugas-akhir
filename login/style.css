@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(baba.jpg);
+    background-size: cover;
+}
+.login-box{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 93%;
+    transform: translate(-60%,-40%);
+    color:darkslategrey;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid grey;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid grey;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid grey;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
